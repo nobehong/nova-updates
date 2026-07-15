@@ -1,0 +1,30 @@
+[
+  {
+    "title": "v89 — Stability & UX",
+    "date": "2026-07-15",
+    "description": "Fixed BSOD crash on second spoof (removed kernel disk IRP hook that ran at wrong IRQL). After spoofing, app now auto-switches to Serials tab showing before/after values, then closes in 20 seconds.",
+    "isNew": true,
+    "isLatest": true
+  },
+  {
+    "title": "v88 — MAC Spoof Removed",
+    "date": "2026-07-14",
+    "description": "Removed MAC address spoofing which caused WAN Miniport Code 31 errors and WiFi disconnects on reboot. NIC ContainerID still spoofed. No more driver damage after restart.",
+    "isNew": false,
+    "isLatest": false
+  },
+  {
+    "title": "v82 — License Backend Switch",
+    "date": "2026-07-13",
+    "description": "Replaced Supabase license backend (paused on free tier) with Filemonk API. Keys from novasoftware.store now validate correctly. Dev keys still work offline.",
+    "isNew": false,
+    "isLatest": false
+  },
+  {
+    "title": "v78 — Driver Rename",
+    "date": "2026-07-08",
+    "description": "Renamed DirectIO64.sys to sysaux64.sys for stealth. Cleaned up stale sysaux64 service on load.",
+    "isNew": false,
+    "isLatest": false
+  }
+]

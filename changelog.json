@@ -1,10 +1,31 @@
 [
   {
-    "title": "v89 — Stability & UX",
+    "title": "v92 — BSOD Fix #2",
     "date": "2026-07-15",
-    "description": "Fixed BSOD crash on second spoof (removed kernel disk IRP hook that ran at wrong IRQL). After spoofing, app now auto-switches to Serials tab showing before/after values, then closes in 20 seconds.",
+    "description": "Fixed SYSTEM_SERVICE_EXCEPTION crash on spoof. Disabled WMI hook which was running at wrong IRQL. Registry-level spoof still fully covers everything EAC reads.",
     "isNew": true,
     "isLatest": true
+  },
+  {
+    "title": "v91 — Spoof State Fix",
+    "date": "2026-07-15",
+    "description": "Fixed app incorrectly showing 'already spoofed' after a reboot. Now correctly checks if the kernel driver is still loaded before restoring spoof state.",
+    "isNew": true,
+    "isLatest": false
+  },
+  {
+    "title": "v90 — Remember Spoof State",
+    "date": "2026-07-15",
+    "description": "App now remembers you are spoofed across restarts. Reopen the app after spoofing and it will show the before/after serials automatically without needing to spoof again.",
+    "isNew": true,
+    "isLatest": false
+  },
+  {
+    "title": "v89 — Stability & UX",
+    "date": "2026-07-15",
+    "description": "Fixed BSOD crash on second spoof. After spoofing, app auto-switches to Serials tab showing before/after values, then closes in 20 seconds.",
+    "isNew": false,
+    "isLatest": false
   },
   {
     "title": "v88 — MAC Spoof Removed",
@@ -16,14 +37,7 @@
   {
     "title": "v82 — License Backend Switch",
     "date": "2026-07-13",
-    "description": "Replaced Supabase license backend (paused on free tier) with Filemonk API. Keys from novasoftware.store now validate correctly. Dev keys still work offline.",
-    "isNew": false,
-    "isLatest": false
-  },
-  {
-    "title": "v78 — Driver Rename",
-    "date": "2026-07-08",
-    "description": "Renamed DirectIO64.sys to sysaux64.sys for stealth. Cleaned up stale sysaux64 service on load.",
+    "description": "Replaced Supabase license backend with Filemonk API. Keys from novasoftware.store now validate correctly. Dev keys still work offline.",
     "isNew": false,
     "isLatest": false
   }

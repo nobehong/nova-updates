@@ -1,23 +1,44 @@
 [
   {
+    "title": "v95 — Disk Serial Spoof",
+    "date": "2026-07-15",
+    "description": "Re-enabled kernel-level disk serial spoofing. Improves bypass against anti-cheats that read disk serials at the driver level (Ricochet/COD). Run Cleaner before spoofing for best results.",
+    "isNew": true,
+    "isLatest": true
+  },
+  {
+    "title": "v94 — Before/After Serials Fix",
+    "date": "2026-07-15",
+    "description": "Fixed before/after serials showing identical values when reopening the app after a spoof. Now correctly saves a snapshot of your original values before spoofing.",
+    "isNew": true,
+    "isLatest": false
+  },
+  {
+    "title": "v93 — Serials Display Fix",
+    "date": "2026-07-15",
+    "description": "Fixed WMI-cached values making before and after serials look the same during a spoof session. Registry-read values (that actually change) are now shown first.",
+    "isNew": true,
+    "isLatest": false
+  },
+  {
     "title": "v92 — BSOD Fix #2",
     "date": "2026-07-15",
     "description": "Fixed SYSTEM_SERVICE_EXCEPTION crash on spoof. Disabled WMI hook which was running at wrong IRQL. Registry-level spoof still fully covers everything EAC reads.",
-    "isNew": true,
-    "isLatest": true
+    "isNew": false,
+    "isLatest": false
   },
   {
     "title": "v91 — Spoof State Fix",
     "date": "2026-07-15",
     "description": "Fixed app incorrectly showing 'already spoofed' after a reboot. Now correctly checks if the kernel driver is still loaded before restoring spoof state.",
-    "isNew": true,
+    "isNew": false,
     "isLatest": false
   },
   {
     "title": "v90 — Remember Spoof State",
     "date": "2026-07-15",
     "description": "App now remembers you are spoofed across restarts. Reopen the app after spoofing and it will show the before/after serials automatically without needing to spoof again.",
-    "isNew": true,
+    "isNew": false,
     "isLatest": false
   },
   {

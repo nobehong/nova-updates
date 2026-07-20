@@ -1,10 +1,17 @@
 [
   {
+    "title": "v96 — Key Remember Fix",
+    "date": "2026-07-20",
+    "description": "Fixed license key not being remembered after reboot. Key is now pre-filled on the login screen, Remember Me defaults to ON, and dev keys no longer break if HWID changed after spoofing.",
+    "isNew": true,
+    "isLatest": true
+  },
+  {
     "title": "v95 — Disk Serial Spoof",
     "date": "2026-07-15",
     "description": "Re-enabled kernel-level disk serial spoofing. Improves bypass against anti-cheats that read disk serials at the driver level (Ricochet/COD). Run Cleaner before spoofing for best results.",
     "isNew": true,
-    "isLatest": true
+    "isLatest": false
   },
   {
     "title": "v94 — Before/After Serials Fix",

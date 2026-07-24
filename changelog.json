@@ -1,10 +1,17 @@
 [
   {
+    "title": "v98 — Status Banner Fix",
+    "date": "2026-07-23",
+    "description": "Fixed banner layout so it appears correctly above the title. If a game update breaks the spoofer, a red warning shows at the top — no need to ask in Discord.",
+    "isNew": true,
+    "isLatest": true
+  },
+  {
     "title": "v97 — Status Banner",
     "date": "2026-07-23",
     "description": "Added a live status banner at the top of the dashboard. If a game update breaks the spoofer, a red warning will appear automatically — no need to ask in Discord.",
     "isNew": true,
-    "isLatest": true
+    "isLatest": false
   },
   {
     "title": "v96 — Key Remember Fix",

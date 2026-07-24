@@ -1,10 +1,17 @@
 [
   {
+    "title": "v97 — Status Banner",
+    "date": "2026-07-23",
+    "description": "Added a live status banner at the top of the dashboard. If a game update breaks the spoofer, a red warning will appear automatically — no need to ask in Discord.",
+    "isNew": true,
+    "isLatest": true
+  },
+  {
     "title": "v96 — Key Remember Fix",
     "date": "2026-07-20",
     "description": "Fixed license key not being remembered after reboot. Key is now pre-filled on the login screen, Remember Me defaults to ON, and dev keys no longer break if HWID changed after spoofing.",
     "isNew": true,
-    "isLatest": true
+    "isLatest": false
   },
   {
     "title": "v95 — Disk Serial Spoof",
